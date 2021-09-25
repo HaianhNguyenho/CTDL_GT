@@ -1,3 +1,7 @@
+/*
+*   created date: 9/6/2021
+*   author:Haianh
+*/
 package vn.edu.giadinh;
 
 public class Program {
