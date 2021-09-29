@@ -1,4 +1,4 @@
-package com.anhnhh2008110020.tuan03;
+package com.anhnhh2008110020.tuan04;
 
 public class Computer {
     String nhaSanXuat;
@@ -23,7 +23,9 @@ public class Computer {
         namBaoHanh = hanh;
     }
     void inThongTin(){
+        System.out.println("Nhà sản xuất: "+nhaSanXuat+"Năm sản xuất: "+namSanXuat+"Hệ điều hành"+heDieuHanh+"Ram: "+ram+"CPU: "+cpu+"Giá: "+gia+"Năm Bảo Hành: "+namBaoHanh);
         
     }
-}
     
+    
+}

@@ -9,7 +9,7 @@ public class Xe {
 
     Xe(){
 
-    }
+    };
     Xe(String t,String ha,String g,String p,String du ){
         tenChuXe = t;
         hangSanXuat = ha;

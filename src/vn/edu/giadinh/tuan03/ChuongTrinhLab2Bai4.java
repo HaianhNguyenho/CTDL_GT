@@ -1,6 +1,7 @@
 package vn.edu.giadinh.tuan03;
 
 import java.util.Scanner;
+import static java.lang.Math.sqrt;
 
 public class ChuongTrinhLab2Bai4 {
     public static void main(String[] args) {
@@ -24,17 +25,63 @@ public class ChuongTrinhLab2Bai4 {
         }
     }
     static void giaiPTBacI(){
-        float a=0,b=0;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập hệ số a: ");
+        int a = scanner.nextInt();
+        System.out.print("Nhập hệ số b: ");
+        int b = scanner.nextInt();
         if(a == 0){
-            if(b == 0){
-                System.out.println("PT vô số nghiệm ...");
+            if(b==0){
+                System.out.println("Phương trình có vô số nghiệm");
+            }
+            else{
+                System.out.println("Phương trình vô nghiệm");
+
             }
         }
-    }
+        else{
+            double nghiem = (double) -b/a;
+            System.out.println("Phương trình có nghiệm x= "+nghiem);
+            }
+
+        }
     static void giaiPTbacII(){
-        System.out.println("Triển khai code giải phương trình bậc II...");
+        float x1,x2;
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("Nhập hệ số a: ");
+    int a = scanner.nextInt();
+    System.out.print("Nhập hệ số b: ");
+    int b = scanner.nextInt();
+    System.out.print("Nhập hệ số c: ");
+    int c = scanner.nextInt();
+
+
+    double delta = Math.pow(b,2)-4*a*c;
+    if(delta<0){
+        System.out.println("Phương trình vô nghiệm");
+    }
+    else if(delta == 0){
+         x1 = x2 = (-b/(2*a));
+        System.out.print("Phương trình có nghiệm kép x1=x2 "+x1);
+    }
+    else{
+        x1=(float) ((-b+sqrt(delta))/(2*a));
+        x2=(float) ((-b-sqrt(delta))/(2*a));
+        System.out.println("Phương trình có 2 nghiệm: x1=" +x1 + ",x2=" + x2);
+        }
+    
     }
     static void tinhTienDien(){
-        System.out.println("Triển khai code tính tiền điện...");
+        Scanner scanner =new Scanner (System.in);
+        System.out.print("Số tiền điện của tháng là: ");
+        double soDien =scanner.nextDouble();
+        if(soDien>=50){
+            System.out.println("Số tiền điện trong tháng là: "+(soDien*1000));
+        }
+        else{
+            System.out.println("Số tiền điện trong tháng là:"+(50*1000+(soDien-50)*1200));
+
+        }
     }
 }

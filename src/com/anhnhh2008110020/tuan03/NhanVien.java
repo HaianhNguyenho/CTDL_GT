@@ -8,7 +8,7 @@ public class NhanVien {
     int ngaySinh;
     NhanVien(){
 
-    }
+    };
     NhanVien(String ten,int lu,String d,String b,int n){
         tenNhanVien = ten;
         luong = lu;
