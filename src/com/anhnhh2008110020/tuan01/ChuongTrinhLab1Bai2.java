@@ -1,6 +1,7 @@
-package com.anhnhh2008110020.tuan02;
+package com.anhnhh2008110020.tuan01;
 
 import java.util.Scanner;
+
 public class ChuongTrinhLab1Bai2 {
     public static void main(String[] args) {
         double chuVi,dienTich,canhNhoNhat;
@@ -21,5 +22,4 @@ public class ChuongTrinhLab1Bai2 {
         System.out.println("Cạnh nhỏ nhất của hình chữ nhật là: " +canhNhoNhat);
 
     }
-    
 }

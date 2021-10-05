@@ -1,5 +1,7 @@
-package com.anhnhh2008110020.tuan02;
+package com.anhnhh2008110020.tuan01;
+
 import java.util.Scanner;
+
 public class ChuongTrinhLab1Bai1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -9,5 +11,4 @@ public class ChuongTrinhLab1Bai1 {
         double diemTB=scanner.nextDouble();
         System.out.printf("%s %f điểm", hoTen, diemTB);
     }
-    
 }
