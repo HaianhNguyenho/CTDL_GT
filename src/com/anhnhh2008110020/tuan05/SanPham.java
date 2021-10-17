@@ -6,7 +6,7 @@ public class SanPham {
     String tenSanPham;
     double giaSanPham;
 
-    SanPham(){}
+    SanPham(){}//mặc định
 
     SanPham(String t,double g){
         tenSanPham=t;

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ChuongTrinhLab5Bai1 {
     public static void main(String[] args) {
-        ArrayList<Double> arr = new ArrayList<Double>();
+        ArrayList<Double> arr = new ArrayList<Double>();//tạo đối tượng
         arr = nhap();
         xuat(arr);
     }

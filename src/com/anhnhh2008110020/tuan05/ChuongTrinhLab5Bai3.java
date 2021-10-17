@@ -49,6 +49,7 @@ public class ChuongTrinhLab5Bai3 {
                 break;
                 default:
                 System.out.println("Bạn chọn sai rồi.Vui lòng chọn lại chức năng");
+        
             }
 
         }
@@ -73,13 +74,13 @@ public class ChuongTrinhLab5Bai3 {
     public static void xuat(){
         SanPham sp = new SanPham();
         System.out.println("Danh sách sản phẩm: ");
-        for (SanPham sanPham : list) {
+        for (SanPham sanPham : list) {//duyệt từng phần tử
             System.out.println("Tên sản phẩm:  "+sp.tenSanPham);
             System.out.println("Giá sản phẩm: "+sp.giaSanPham);
         }
     }
     public static void sapXep(){
-        Comparator<SanPham> comp = new Comparator<SanPham>() {
+        Comparator<SanPham> comp = new Comparator<SanPham>() {//KDLtham chiếu đối tượng
             @Override
             public int compare(SanPham o1, SanPham o2) { 
                 return Double.compare(o1.giaSanPham, o2.giaSanPham);
