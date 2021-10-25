@@ -29,10 +29,12 @@ public class AppleTestDrive {
                 xuat();
                 break;
                 case 3:
-                System.out.println("Tìm táo theo màu ");
+                System.out.println("Thêm táo vào kho ");
+                
                 break;
                 case 4:
                 System.out.println("Tìm táo theo màu");
+                
                 break;
                 case 5:
                 System.exit(0);
@@ -74,11 +76,15 @@ public class AppleTestDrive {
         }
        
     }
-        static Apple timSanPhamTheoTen(String color,ArrayList<Apple> list){
+     public static Apple timTaoTheoMau(String c,ArrayList<Apple> list){
             Apple result = null;
             for (Apple apple : list) {
-                if(apple.color.equals())
+                if(apple.color.equals(c)){
+
+                }
             }
+            return result;
+        
         }
 
 }
