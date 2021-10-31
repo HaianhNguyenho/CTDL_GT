@@ -22,5 +22,6 @@ public class LinkedList {
     public Double weight(){
         return this.weight;
     }
+    
 }
 
