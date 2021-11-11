@@ -1,9 +1,14 @@
 package vn.edu.giadinh.suabaikiemtragiuaky;
 
+import java.util.Date;
+
 public class Apple {
     int id;
     String color;
     double weight;
+
+    Date inputDay;// SimpleFormat
+    
 
     public Apple(){}
 
