@@ -6,7 +6,7 @@ public class DemoDateJava {
     public static void main(String[] args) throws ParseException {
         //Khai bao bien kieu ngay
         Date ngaySinh;
-        String strNgaySinh = "20/11/2021";
+        String strNgaySinh = "20/12/2021";
 
         ngaySinh = chuyenChuoiSangNgay(strNgaySinh);
         System.out.println(ngaySinh);
